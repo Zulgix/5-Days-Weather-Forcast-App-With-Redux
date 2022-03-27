@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Avi-Mizrahi-27-03-2022/static/css/main.e2b16b61.css",
+    "main.js": "/Avi-Mizrahi-27-03-2022/static/js/main.c1f98f75.js",
+    "static/js/787.8dae8d92.chunk.js": "/Avi-Mizrahi-27-03-2022/static/js/787.8dae8d92.chunk.js",
+    "static/media/background_img.jpg": "/Avi-Mizrahi-27-03-2022/static/media/background_img.23f99a72c435ebf2101a.jpg",
+    "static/media/partlySunnyWtStorms.png": "/Avi-Mizrahi-27-03-2022/static/media/partlySunnyWtStorms.4b8d4543699af9743509.png",
+    "static/media/partlyCloudyWtStorms.png": "/Avi-Mizrahi-27-03-2022/static/media/partlyCloudyWtStorms.da8960711b2a7bdd80c0.png",
+    "static/media/mostlyCloudyWtStormsDay.png": "/Avi-Mizrahi-27-03-2022/static/media/mostlyCloudyWtStormsDay.02f6796a4b217cbdd262.png",
+    "static/media/tStorms.png": "/Avi-Mizrahi-27-03-2022/static/media/tStorms.9aac7942a26db293440b.png",
+    "index.html": "/Avi-Mizrahi-27-03-2022/index.html",
+    "main.e2b16b61.css.map": "/Avi-Mizrahi-27-03-2022/static/css/main.e2b16b61.css.map",
+    "main.c1f98f75.js.map": "/Avi-Mizrahi-27-03-2022/static/js/main.c1f98f75.js.map",
+    "787.8dae8d92.chunk.js.map": "/Avi-Mizrahi-27-03-2022/static/js/787.8dae8d92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b16b61.css",
+    "static/js/main.c1f98f75.js"
+  ]
+}
