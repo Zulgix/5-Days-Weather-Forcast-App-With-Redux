@@ -60,7 +60,7 @@ function Header() {
         </Grid>
 
         <Grid item xs={4}>
-          <Link to="/">
+          <Link to="/home">
             <Button
               variant="contained"
               className={classes.headerButton}

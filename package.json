@@ -1,7 +1,8 @@
 {
-  "name": "weather_forecast",
+  "name": "Avi-Mizrahi-27-03-2022",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zulgix.github.io/Avi-Mizrahi-27-03-2022/",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -31,6 +32,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
