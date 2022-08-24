@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import { Button, Paper, Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import Switch from "@mui/material/Switch";
 import { useSelector, useDispatch } from "react-redux";

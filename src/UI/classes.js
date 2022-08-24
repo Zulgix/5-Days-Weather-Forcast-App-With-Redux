@@ -81,7 +81,7 @@ const commonClasses = makeStyles((theme) => ({
       backgroundColor: "#EBEBEB",
     },
   },
-  favCardContainer: {
+  favCardContainer1: {
     padding: "24px",
     height: "100%",
   },

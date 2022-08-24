@@ -53,7 +53,7 @@ export default function Favorites() {
           md={4}
           sm={6}
           xs={12}
-          className={classes.favCardContainer}
+          className={classes.favCardContainer1}
           onClick={() => locationClickedHandler(favoriteLocations[index])}
         >
           <Grid item>

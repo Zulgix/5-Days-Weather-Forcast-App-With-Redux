@@ -12,15 +12,16 @@ function App() {
 
   useEffect(() => {
     navigate("/home");
-  },[]);
+  }, []);
 
   return (
     <Grid container className="App">
       <Routes>
         <Route path="/home" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="favorites" element={<Favorites />} />
         </Route>
+        <Route path="favorites" element={<Favorites />} />
+        <Route index element={<Favorites />} />
       </Routes>
       <ErrorAlert />
     </Grid>
