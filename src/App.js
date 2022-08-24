@@ -5,14 +5,14 @@ import Home from "./containers/Home";
 import Favorites from "./containers/Favorites";
 import Layout from "./components/Layout";
 import ErrorAlert from "./components/ErrorAlert";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
     navigate("/home");
-  }, []);
+  },[]);
 
   return (
     <Grid container className="App">
