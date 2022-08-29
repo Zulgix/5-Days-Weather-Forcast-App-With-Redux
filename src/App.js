@@ -7,8 +7,6 @@ import Layout from "./components/Layout";
 import ErrorAlert from "./components/ErrorAlert";
 
 function App() {
-
-
   return (
     <Grid container className="App">
       <Routes>

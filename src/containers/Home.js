@@ -19,10 +19,11 @@ export default function Home() {
     dispatch(getLocationWeather(selectedLocation, unitType));
   }, [selectedLocation, dispatch, unitType]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const debounceFetch = useCallback(
     debounce((str) => dispatch(getLocationsOptions(str)), 500),
     []
-  );
+  ); 
 
   const fetchLocations = (event) => {
     const str = event.target.value;
