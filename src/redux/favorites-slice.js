@@ -17,7 +17,7 @@ const favoritesSlice = createSlice({
         (location) => location.Key === action.payload.locationKey
       );
 
-      console.log(index);
+      // console.log(index);
 
       state.favoriteLocations = state.favoriteLocations.filter(
         (location) => location.Key !== action.payload.locationKey

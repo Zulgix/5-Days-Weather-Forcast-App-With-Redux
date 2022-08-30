@@ -19,7 +19,7 @@ export default function Favorites() {
   const unitType = useSelector((state) => state.ui.unitType);
 
   useEffect(() => {
-    console.log(favoriteLocations);
+    // console.log(favoriteLocations);
     if (favoriteLocations.length) {
       dispatch(getFavoritesData(favoriteLocations));
     }

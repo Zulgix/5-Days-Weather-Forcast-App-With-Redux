@@ -37,7 +37,7 @@ export default function Home() {
       dispatch(homeActions.setSelectedLocation({ selectedLocation: value }));
   };
 
-  console.log(selectedLocation);
+  // console.log(selectedLocation);
   return (
     <Grid container item alignItems="center" className={classes.homeContainer}>
       <Grid item className={classes.searchContainer} xs={12}>
